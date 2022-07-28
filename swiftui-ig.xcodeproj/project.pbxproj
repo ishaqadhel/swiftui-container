@@ -18,6 +18,11 @@
 		6AC4E0132891BE5D001A8098 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E0122891BE5D001A8098 /* ProfileView.swift */; };
 		6AC4E0152891BE6E001A8098 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E0142891BE6E001A8098 /* UploadPostView.swift */; };
 		6AC4E0172891C0AA001A8098 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E0162891C0AA001A8098 /* FeedCell.swift */; };
+		6AC4E01A289278CD001A8098 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E019289278CD001A8098 /* SearchBar.swift */; };
+		6AC4E01C28927CDC001A8098 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E01B28927CDC001A8098 /* PostGridView.swift */; };
+		6AC4E01E28927E54001A8098 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E01D28927E54001A8098 /* UserCell.swift */; };
+		6AC4E02028927EFC001A8098 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E01F28927EFC001A8098 /* UserListView.swift */; };
+		6AC4E02228928275001A8098 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E02128928275001A8098 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		6AC4E0122891BE5D001A8098 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6AC4E0142891BE6E001A8098 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		6AC4E0162891C0AA001A8098 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		6AC4E019289278CD001A8098 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		6AC4E01B28927CDC001A8098 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		6AC4E01D28927E54001A8098 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		6AC4E01F28927EFC001A8098 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		6AC4E02128928275001A8098 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 		6AC4DFF82891B967001A8098 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6AC4E02128928275001A8098 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -178,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				6AC4E00E2891BE28001A8098 /* SearchView.swift */,
+				6AC4E019289278CD001A8098 /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -200,6 +212,9 @@
 		6AC4E0042891BA59001A8098 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				6AC4E01B28927CDC001A8098 /* PostGridView.swift */,
+				6AC4E01D28927E54001A8098 /* UserCell.swift */,
+				6AC4E01F28927EFC001A8098 /* UserListView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -304,13 +319,18 @@
 			files = (
 				6AC4E00F2891BE28001A8098 /* SearchView.swift in Sources */,
 				6AC4E00D2891BE11001A8098 /* FeedView.swift in Sources */,
+				6AC4E01C28927CDC001A8098 /* PostGridView.swift in Sources */,
 				6AC4DFFC2891BA14001A8098 /* ContentView.swift in Sources */,
 				6AC4DFE82891B801001A8098 /* swiftui_igApp.swift in Sources */,
 				6AC4E00B2891BDD3001A8098 /* MainTabView.swift in Sources */,
 				6AC4E0152891BE6E001A8098 /* UploadPostView.swift in Sources */,
 				6AC4E0132891BE5D001A8098 /* ProfileView.swift in Sources */,
+				6AC4E01E28927E54001A8098 /* UserCell.swift in Sources */,
+				6AC4E01A289278CD001A8098 /* SearchBar.swift in Sources */,
 				6AC4E0112891BE44001A8098 /* NotificationsView.swift in Sources */,
 				6AC4E0172891C0AA001A8098 /* FeedCell.swift in Sources */,
+				6AC4E02028927EFC001A8098 /* UserListView.swift in Sources */,
+				6AC4E02228928275001A8098 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
